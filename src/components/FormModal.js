@@ -15,10 +15,10 @@ const FormModal = ({ show, handleClose, handleShow, post }) => {
     useAddPostMutation();
   const handleSubmit = () => {
     if (id) {
-      editPost({ id, data: { title, desc } });
+      editPost({ id, data: { title, body:desc } });
     } else {
         console.log("add")
-      addPost({ title, desc });
+      addPost({ title, body:desc });
     }
   };
   useEffect(() => {
