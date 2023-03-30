@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.edit-action-icon,
+.delete-action-icon {
+  cursor: pointer;
+  transition: all;
+  /* width: 24px;
+  height: 24px; */
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.edit-action-icon:hover {
+  color: #3b82f6;
+}
+.delete-action-icon:hover {
+  color: #ef4444;
 }
